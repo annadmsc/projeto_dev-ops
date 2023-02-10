@@ -1,6 +1,9 @@
 import datetime
 today = datetime.datetime.now()
+user = input("Whats your name?")
 
+
+print("Hello " + user + "!")
 print("the time is :", today)
 
 
